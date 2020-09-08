@@ -48,7 +48,7 @@ FilterVertices::NLFFilter(const Graph *data_graph, const Graph *query_graph, ui 
             return false;
         }
     }
-
+    
     return true;
 }
 

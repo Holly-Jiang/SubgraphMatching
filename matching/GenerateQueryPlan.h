@@ -5,7 +5,7 @@
 #ifndef SUBGRAPHMATCHING_GENERATEQUERYPLAN_H
 #define SUBGRAPHMATCHING_GENERATEQUERYPLAN_H
 
-#include "graph/graph.h"
+#include "../graph/graph.h"
 #include <vector>
 class GenerateQueryPlan {
 public:

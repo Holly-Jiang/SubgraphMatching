@@ -158,6 +158,7 @@ void Graph::loadGraphFromFile(const std::string &file_path) {
     BuildReverseIndex();
 
 #if OPTIMIZED_LABELED_GRAPH == 1
+    
     if (enable_label_offset_) {
         BuildNLF();
         // BuildLabelOffset();

@@ -8,7 +8,7 @@
 #include <fstream>
 
 #include "matchingcommand.h"
-#include "graph/graph.h"
+#include "../graph/graph.h"
 #include "GenerateFilteringPlan.h"
 #include "FilterVertices.h"
 #include "BuildTable.h"
@@ -166,6 +166,7 @@ int main(int argc, char** argv) {
     } else if (input_filter_type == "NLF") {
         FilterVertices::NLFFilter(data_graph, query_graph, candidates, candidates_count);
     } else if (input_filter_type == "GQL") {
+        cout<<"OPTIMIZED_LABELED_GRAPH:"<<OPTIMIZED_LABELED_GRAPH<<endl;
         FilterVertices::GQLFilter(data_graph, query_graph, candidates, candidates_count);
     } else if (input_filter_type == "TSO") {
         FilterVertices::TSOFilter(data_graph, query_graph, candidates, candidates_count, tso_order, tso_tree);

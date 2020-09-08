@@ -18,7 +18,7 @@
  * If the memory can hold the extra memory cost, then enable this feature to boost the performance. Otherwise, disable
  * it by setting this value as 0.
  */
-#define OPTIMIZED_LABELED_GRAPH 1
+#define OPTIMIZED_LABELED_GRAPH 0
 
 /**
  * Define SPECTRUM to enable spectrum analysis.

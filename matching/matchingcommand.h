@@ -5,7 +5,7 @@
 #ifndef SUBGRAPHMATCHING_MATCHINGCOMMAND_H
 #define SUBGRAPHMATCHING_MATCHINGCOMMAND_H
 
-#include "utility/commandparser.h"
+#include "../utility/commandparser.h"
 #include <map>
 #include <iostream>
 enum OptionKeyword {

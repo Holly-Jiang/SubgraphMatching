@@ -1,0 +1,9 @@
+E:/github/SubgraphMatching/build/CMakeFiles/ALL_BUILD.dir
+E:/github/SubgraphMatching/build/CMakeFiles/ZERO_CHECK.dir
+E:/github/SubgraphMatching/build/graph/CMakeFiles/graph.dir
+E:/github/SubgraphMatching/build/matching/CMakeFiles/EdgeListConverter.out.dir
+E:/github/SubgraphMatching/build/matching/CMakeFiles/SubgraphMatching.out.dir
+E:/github/SubgraphMatching/build/matching/CMakeFiles/GraphConverter.out.dir
+E:/github/SubgraphMatching/build/matching/CMakeFiles/ReassignLabel.dir
+E:/github/SubgraphMatching/build/matching/CMakeFiles/SelectEdge.dir
+E:/github/SubgraphMatching/build/utility/CMakeFiles/utility.dir

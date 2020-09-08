@@ -8,8 +8,8 @@
 #include <unordered_map>
 #include <iostream>
 
-#include "configuration/types.h"
-#include "configuration/config.h"
+#include "../configuration/types.h"
+#include "../configuration/config.h"
 
 /**
  * A graph is stored as the CSR format.

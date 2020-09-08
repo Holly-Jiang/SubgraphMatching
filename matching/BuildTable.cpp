@@ -212,7 +212,6 @@ void BuildTable::printTableCardinality(const Graph *query_graph, TreeNode *tree,
     for (ui i = 1; i < query_vertices_num; ++i) {
         VertexID begin_vertex = order[i];
         TreeNode& node = tree[begin_vertex];
-
         {
             VertexID end_vertex = node.parent_;
             ui cardinality = 0;

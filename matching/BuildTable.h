@@ -5,8 +5,8 @@
 #ifndef SUBGRAPHMATCHING_BUILDTABLE_H
 #define SUBGRAPHMATCHING_BUILDTABLE_H
 
-#include "graph/graph.h"
-#include "utility/QFliter.h"
+#include "../graph/graph.h"
+#include "../utility/QFliter.h"
 #include <vector>
 class BuildTable {
 public:

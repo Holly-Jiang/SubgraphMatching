@@ -6,8 +6,8 @@
 #define SUBGRAPHMATCHING_GENERATEFILTERINGPLAN_H
 
 
-#include "graph/graph.h"
-#include "configuration/types.h"
+#include "../graph/graph.h"
+#include "../configuration/types.h"
 
 class GenerateFilteringPlan {
 public:
